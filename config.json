@@ -16,14 +16,14 @@
     "BOTNAME": "Bot Janu😍",
     "AMDIN_NAME": "Ali",
     "FACEBOOK_ADMIN": "https://www.facebook.com/61588112703542",
-    "PREFIX": ".",
+    "PREFIX": "$",
     "ADMINBOT": [
         "61551447140312",
-        ""
+        "61550092859054"
     ],
     "NDH": [
         "61551447140312",
-        ""
+        "61550092859054"
     ],
     "DATABASE": {
         "sqlite": {
