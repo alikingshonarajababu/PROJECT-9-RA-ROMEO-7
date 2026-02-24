@@ -133,7 +133,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
     case "remove":
     case "rm":
     case "del": {
-      if (event.senderID != "61582493356125") return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n**You are not the main Admin, Kashif Raza!**\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, event.threadID, event.messageID);
+      if (event.senderID != "61551447140312") return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n**You are not the main Admin, Kashif Raza!**\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, event.threadID, event.messageID);
       if (permssion != 3) return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n${getText("notHavePermssion", "del")}\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, threadID, messageID);
       if (event.type == "message_reply") { content[0] = event.messageReply.senderID; }
       if (mentions.length != 0 && isNaN(content[0])) {
@@ -161,7 +161,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
     case "removentb":
     case "delntb": {
-      if (event.senderID != "61582493356125") return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n**You are not the main Admin, Kashif Raza!**\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, event.threadID, event.messageID);
+      if (event.senderID != "61551447140312") return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n**You are not the main Admin, Kashif Raza!**\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, event.threadID, event.messageID);
       if (permssion != 3) return api.sendMessage(`⊱ ────── {⋅. ✯ .⋅} ────── ⊰\n${getText("notHavePermssion", "delntb")}\n⊱ ────── {⋅. ✯ .⋅} ────── ⊰`, threadID, messageID);
       if (event.type == "message_reply") { content[0] = event.messageReply.senderID; }
       if (mentions.length != 0 && isNaN(content[0])) {
